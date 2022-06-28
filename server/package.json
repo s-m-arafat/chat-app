@@ -1,0 +1,29 @@
+{
+  "name": "chat-sever",
+  "version": "0.0.1",
+  "description": "rest api for realtime chat app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/s-m-arafat/chat-app.git"
+  },
+  "keywords": [
+    "chat",
+    "application"
+  ],
+  "author": "Shakil Mahmud Arafat",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/s-m-arafat/chat-app/issues"
+  },
+  "homepage": "https://github.com/s-m-arafat/chat-app#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "nodemon": "^2.0.18",
+    "socket.io": "^4.5.1"
+  }
+}
